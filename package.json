@@ -23,29 +23,7 @@
     "lint": "eslint src",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest",
-      "prettier"
-    ],
-    "plugins": [
-      "prettier",
-      "cypress"
-    ],
-    "env": {
-      "cypress/globals": true
-    },
-    "rules": {
-      "prettier/prettier": "warn"
-    }
-  },
-  "prettier": {
-    "arrowParens": "avoid",
-    "bracketSpacing": false,
-    "singleQuote": true,
-    "trailingComma": "all"
-  },
+
   "browserslist": {
     "production": [
       ">0.2%",
